@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    
+    font-family: 'Roboto', 'Helvetica Neue', "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial, Tahoma, verdana;
+    ;
+}
+
+header {
+    height: 48px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 0px 15px;
+    z-index: 1;
+}
+
+header>.nav {
+    display: flex;
+    margin: 0% 16%;
+    height: 48px;
+}
+
+main {
+    padding: 0% 16%;
+    margin-top: 48px;
+}
+
+.content {
+    color: #000;
+    padding: 0px 36px;
+    
+}
+
+.navbar {
+    padding: 0;
+}
+
+.form-search {
+    margin-right: 35%;
+}
+
+.button-search {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.input-search {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.sub-nav{
+    margin-right: 9%;
+    height: 48px;
+    line-height: 48px;
+    color: black;
+    font-size: 12.5px;
+    font-weight: bolder;
+    padding: 0px 10px;
+    
+}
+
+.sub-nav:hover {
+    background-color: #aeb7c21f;
+}
+
+main {
+    padding: 18px 36px;
+}
+
+.main-left {
+    padding-right: 12%;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.main-left>h2 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+}
+
+.main-left a {
+    color: #2A5885;
+    font-size: 13px;
+    text-decoration: none;
+}
+.main-left a:hover{
+    text-decoration: underline;
+}
+.main-left>p {
+    margin-bottom: 8px;
+    font: 22px;
+    color: #626d7a;
+}
+
+.form-login>a {
+    padding-top: 12px;
+    color: #2A5885;
+    font-size: 13px;
+    display: block;
+}
+
+.img-phone {
+    padding-top: 32px;
+}
+
+.form-login {
+    width: 320px;
+    height: 222px;
+    padding: 25px;
+    border-radius: 2%;
+}
+.form-login a{
+    text-decoration: none;
+}
+.form-login a:hover{
+    text-decoration: underline;
+}
+.form-login>button{
+    background-color: #5181B8;
+    margin: 5px 15px 0px 0px;
+    padding: 7px 16px 8px;
+    font-size: 14px;
+    width: 100px;
+    height: 35px;
+
+}
+
+.form-registration {
+    width: 320px;
+    padding: 25px;
+    border-radius: 2%;
+    margin-top: 18px;
+    padding: 25px;
+    background-color: #fff;
+    font-size: 13px;
+    border-radius: 2%;
+    height: 455.8;
+    }
+
+.img-ios {
+    position: relative;
+    margin-left: 170px;
+}
+
+.img-androi {
+    position: absolute;
+}
+
+.img-phone>.btn {
+    color: #2A5885;
+    border: none;
+    margin: 16px 0px 0px;
+    padding: 7px 16px 8px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.btn>a {
+    color: #2A5885;
+    text-decoration: none;
+    font-size: 13px;
+    width: 137.4px;
+    height: 31px;
+    font-family: 'Roboto', 'Helvetica Neue', "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian", "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial, Tahoma, verdana;
+}
+
+.img-phone>.btn:hover {
+    background-color: #dce1e6;
+}
+
+a:hover .bi-chevron-right{
+    margin-left: 2px;
+}
+
+.button-registration-1,
+.button-registration-2 {
+    width: 270px;
+    height: 36px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 28px;
+    padding: 0px 16px;
+}
+
+.button-registration-1 {
+    background-color: #4bb34b;
+    border: none;
+}
+
+.button-registration-1:hover {
+    opacity: 0.9;
+    background-color: #4bb34b;
+
+}
+
+.form-footer {
+    margin: 18px 0px 15px;
+    padding: 15px 25px;
+    width: 320px;
+    color: #818c99;
+    font-size: 13px;
+    border-radius: 2%;
+}
+.birthday,.gender{
+    margin: 0px 0px 12px;
+    color: #818c99;
+    font-size: 13px;
+}
+
+#day{
+    width: 75px;
+    height: 35px;
+    color: #000;
+    font-size: 13px;
+    background-color: #fff;
+    border-color: #dce1e6;
+    border-radius: 9%;
+    margin-bottom: 15px;
+}
+#month{
+    width: 94px;
+    height: 35px;
+    border-color: #dce1e6;
+    margin-left: 3.4%;
+    margin-right: 3.4%;
+    border-radius: 9%;
+}
+#year{
+    width: 75px;
+    height: 35px;
+    border-color: #dce1e6;
+    border-radius: 9%;
+}
+.footer{
+    margin-top: 25px;
+}
+.footer a {
+    font-size: 13px;
+    color: #2A5885;
+    padding: 2px 0px 2px 5px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .col {
+    margin-right: 27%;
+    padding: 0px 12px;
+    display: inline-block;
+}
